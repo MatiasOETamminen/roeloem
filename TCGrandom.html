@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>And the next TCG set will be...</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset="UTF-8">
+
+</head>
+
+<body>		
+        <button onclick="nayta()">Näytä!</button>
+
+<p id="demo"></p>
+
+<script>
+function nayta() {
+ var quotes = [
+   "Legendary",
+"Dragon",
+"Hidden",
+"Emerald",
+"Unseen",
+"Delta",
+"Legend",
+"Holon",
+"Crystal",
+"Dragon",
+"Power",
+"Diamond",
+"Mysterious",
+"Secret",
+"Great",
+"Majestic",
+"Platinum",
+"Rising",
+"Supreme",
+"Arceus",
+"HeartGold",
+"Triumphant",
+"Call of",
+"Emerging",
+"Noble",
+"Next",
+"Dark",
+"Dragons",
+"Boundaries",
+"Plasma",
+"Legendary",
+"Flashfire",
+"Furious",
+"Phantom",
+"Primal",
+"Roaring",
+"Ancient",
+"Fates",
+"Steam",
+"Evolutions",
+"Sun",
+"Guardians",
+"Burning",
+"Crimson",
+"Ultra",
+"Forbidden",
+"Celestial",
+"Lost",
+"Team",
+"Unbroken",
+"Unified",
+"Cosmic",
+"Sword",
+"Rebel",
+"Darkness",
+"Vivid",
+"Battle",
+"Champion's",
+"Shining",
+"Evolving",
+	]; 
+    var quotes1 = [
+"Heroes",
+"Challenge",
+"Genesis",
+"Discovery",
+"Revelation",
+"Destiny",
+"Collection",
+"Legends",
+"Returns",
+"Rocket",
+"Forces",
+"Species",
+"Maker",
+"Phantoms",
+"Guardians",
+"Frontiers",
+"Keepers",
+"Treasures",
+"Wonders",
+"Encounters",
+"Dawn",
+"Awakened",
+"Stormfront",
+"Unleashed",
+"Rivals",
+"Victors",
+"Legends",
+"Powers",
+"Victories",
+"Destinies",
+"Explorers",
+"Exalted",
+"Crossed",
+"Storm",
+"Freeze",
+"Blast",
+"Treasures",
+"Fists",
+"Forces",
+"Clash",
+"Skies",
+"Origins",
+"Collide",
+"Siege",
+"Moon",
+"Rising",
+"Shadows",
+"Invasion",
+"Prism",
+"Light",
+"Storm",
+"Thunder",
+"Up",
+"Bonds",
+"Minds",
+"Eclipse",
+"Shield",
+"Clash",
+"Ablaze",
+"Voltage",
+"Styles",
+"Reign",
+"Fates",
+	]; 
+            var text = "";
+			var text1 = "";
+			var randomness = Math.floor(Math.random()*quotes.length);
+			var randomness1 = Math.floor(Math.random()*quotes1.length);
+				text = quotes[randomness];
+				text1 = quotes1[randomness1];
+				console.log(text)
+				console.log(text1)
+  document.getElementById("demo").innerHTML = "<p>" + text + " " + text1 + "</p>";
+}
+</script>
+
+</body>
+</html>
