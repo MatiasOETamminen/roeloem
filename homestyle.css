@@ -55,6 +55,7 @@
   text-decoration: none;
   font-family: Helvetica,sans-serif;
   text-align: left;
+  min-width: 250px;
 }
 
 #list li {
