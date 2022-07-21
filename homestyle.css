@@ -44,24 +44,24 @@
 #contents a {
   color: black;
 }
-#events {
+#list {
   text-decoration: none;
   font-family: Helvetica,sans-serif;
   text-align: center;
 }
 
-#events ul {
+#list ul {
   display: inline-block;
   text-decoration: none;
   font-family: Helvetica,sans-serif;
   text-align: left;
 }
 
-#events li {
+#list li {
   padding-bottom: 10px;
 }
 
-#events a {
+#list a {
   color: black;
 }
 
