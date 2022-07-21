@@ -1,0 +1,137 @@
+﻿#header {
+  width: 100%;
+  text-align: center;
+  font-family: Helvetica,sans-serif;
+  font-size: 100%;
+  text-transform: uppercase;
+}
+
+#header a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
+
+#header a:hover {
+  background-color: rgb(220,220,220);
+}
+#subheader {
+  width: 100%;
+  text-align: center;
+  font-family: Helvetica,sans-serif;
+  font-size: 100%;
+  text-transform: uppercase;
+}
+
+#subheader a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
+
+#subheader a:hover {
+  background-color: rgb(220,220,220);
+}
+#contents {
+  width: 100%;
+  text-align: center;
+  float: left;
+  font-family: Helvetica,sans-serif;
+  padding-bottom: 100px;
+}
+#contents a {
+  color: black;
+}
+#events {
+  text-decoration: none;
+  font-family: Helvetica,sans-serif;
+  text-align: center;
+}
+
+#events ul {
+  display: inline-block;
+  text-decoration: none;
+  font-family: Helvetica,sans-serif;
+  text-align: left;
+}
+
+#events li {
+  padding-bottom: 10px;
+}
+
+#events a {
+  color: black;
+}
+
+#footer {
+  position: fixed;
+  font-family: Helvetica,sans-serif;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  background-color: white;
+}
+
+#footer a {
+  text-decoration: none;
+  color: black;
+}
+
+#footer a:hover {
+  background-color: rgb(220,220,220);
+}
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-family:"Playfair Display",serif;
+}
+.active, .collapsible:hover {
+  background-color: #555;
+}
+.collapsible1 {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-family:"Playfair Display",serif;
+}
+.active, .collapsible1:hover {
+  background-color: #555;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.content1 {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  text-align: left;
+}
+#releases img {
+  border: 2px black solid;
+}
+#releases img:hover {
+ cursor: pointer;
+}
+#shadowing{display: none;position: fixed;top: 0%;left: 0%;width: 100%;height: 100%; background-color: rgb(220,220,220); z-index:10;    opacity:0.5; filter: alpha(opacity=50);}
+#box, #box1, #box2 {display: none;position: absolute; top: 50%;left: 50%;margin-right: -50%;transform: translate(-50%, -50%); padding: 10px; margin:0;border: 1px solid black;background-color: white;z-index:11; overflow: auto; text-align: left;}
+#box ul, #box1 ul, #box2 ul {list-style-type: decimal; display: inline-block; text-align: left; list-style-position: outside;}
+#boxclose, #boxclose1, #boxclose2{float:right;position:absolute; top: 0; right: 0px;  width:20px;height:20px;margin-right:0px;}
+#boxclose:hover, #boxclose1:hover, #boxclose2:hover {cursor: pointer;}
+#boxcontent, #boxcontent1, #boxcontent2 {padding: 8px;overflow: auto;width:auto;height:auto; }
